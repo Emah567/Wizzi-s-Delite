@@ -21,8 +21,10 @@
 @import url('custom-animate.css');
 
 
-/*** 
 
+
+/*** 
+body
 ====================================================================
 
   Main Header style
@@ -30,6 +32,10 @@
 ====================================================================
 
 ***/
+
+body{
+      width: 100vw;
+      overflow-x:hidden;}
 
 .main-header{
   position: fixed;
